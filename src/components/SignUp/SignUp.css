@@ -1,0 +1,175 @@
+/* General Container */
+.signup-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Left Section - Signup Form */
+  .signup-form-container {
+    width: 50%;
+    flex: 1;
+    padding: 40px 40px 40px 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f8f8;
+  }
+  
+  .signup-form-container h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .signup-form-container .brand {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .signup-form-container .brand span {
+    color: #1980ff;
+  }
+  
+  .signup-form-container p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-group input {
+    width: 48%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type="email"], .password-input input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .terms-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .terms-checkbox label {
+    margin-left: 10px;
+    color: #666;
+  }
+  
+  .terms-checkbox a {
+    color: #1980ff;
+    text-decoration: none;
+  }
+  
+  .signup-button {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .alternative-signup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .alternative-signup p {
+    margin-bottom: 10px;
+  }
+  
+  .google-signup, .apple-signup {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .google-signup {
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .apple-signup {
+    background-color: black;
+    color: white;
+  }
+  
+  .signin-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signin-link a {
+    color: #1980ff;
+    text-decoration: none;
+  }
+  
+  /* Right Section - Branding */
+  .branding-container {
+    flex: 1;
+    background-image:  url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .branding-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .branding-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .branding-content h1 span {
+    color: #1980ff;
+  }
+  
+  .branding-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+  

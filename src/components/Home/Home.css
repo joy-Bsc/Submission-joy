@@ -1,0 +1,119 @@
+.store-container {
+    display: flex;
+    gap: 40px;
+    padding-left: 50px;
+    margin-top: 80px;
+    margin-right: 40px;
+
+  }
+  
+  .sidebar {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    border-right: 1px solid rgb(82, 78, 78);
+  }
+  
+  .category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-item {
+    color: grey;
+    padding: 15px;
+    padding-left: 20px;
+    
+    cursor: pointer;
+    font-size: 18px;
+    border-block-end: 1px solid rgb(241, 241, 241);
+  }
+  
+  .category-item.active {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+  }
+  
+  .category-item:hover {
+    color: white;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .product-image {
+    width: 245px;
+    height: 236px;
+    padding: 16.01px 19.5px 14.99px 20.5px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .discount {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+    position: bottom;
+  }
+  
+  .page-button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  

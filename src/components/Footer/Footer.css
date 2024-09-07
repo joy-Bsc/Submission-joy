@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    margin-top: auto;
+    background-color: #111;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-text {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #3498db;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .footer-column {
+    margin-right: 20px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #3498db;
+  }
+  
+  /* Bottom Footer Styling */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #3498db;
+  }
+  
+  .footer-links-bottom {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links-bottom a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+  }
+  
+  .footer-links-bottom a:hover {
+    color: #3498db;
+  }
+  
+  .footer-country {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .footer-country:hover {
+    color: #3498db;
+  }
+  
+  /* Copyright Section */
+  .footer-copyright {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer-copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+  
