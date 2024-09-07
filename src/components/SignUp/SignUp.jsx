@@ -27,7 +27,7 @@ const SignUp = () => {
       // Perform signup logic here (e.g., call an API to create a new user)
       // Assuming signup is successful, log the user in
       await login(email, password);
-      navigate('/'); // Redirect to home page after successful signup
+      navigate('/signin'); // Redirect to home page after successful signup
     } catch (err) {
       setError('Signup failed. Please try again.');
     }
